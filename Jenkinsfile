@@ -25,7 +25,7 @@ pipeline {
           agent { label 'jdk9' }
           steps {
             sh 'java -version'
-            sleep time: 10, unit: 'SECONDS'
+            sleep time: 20, unit: 'SECONDS'
           }
         }
       }
